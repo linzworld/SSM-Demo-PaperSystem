@@ -11,6 +11,11 @@
 4. 编程环境：IntelliJ IDEA 2019.1.3 (Ultimate Edition)
 4. 数据库版本：Mysql 5.7.24
 5. Tomcat版本：Tomcat 8.5.51
+## 本地运行
+1. 克隆项目到本地，使用idea打开该项目
+2. 本地数据库运行sql/paper.sql文件.
+3. 更改src/main/resources/jdbc.properties配置文件为本地数据库的配置
+4. idea启动项目
 ## 示例
 ### 欢迎页面
 ![](http://img.linzworld.cn/img/20201226230416.png)
