@@ -10,6 +10,19 @@
 4. 编程环境：IntelliJ IDEA 2019.1.3 (Ultimate Edition)
 4. 数据库版本：Mysql 5.7.24
 5. Tomcat版本：Tomcat 8.5.51
+## 示例
+### 欢迎页面
+![](http://img.linzworld.cn/img/20201226230416.png)
+### 论文列表
+![](http://img.linzworld.cn/img/20201226230458.png)
+### 新增论文
+![](http://img.linzworld.cn/img/20201226230531.png)<br>
+新增成功<br>
+![](http://img.linzworld.cn/img/20201226230548.png)
+### 修改论文
+![](http://img.linzworld.cn/img/20201226230710.png)<br>
+修改成功<br>
+![](http://img.linzworld.cn/img/20201226230634.png)
 ## sql
 根目录对应的sql文件夹下放了sql文件<br>
 1. paper.sql代表只有结构的
