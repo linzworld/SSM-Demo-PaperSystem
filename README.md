@@ -3,6 +3,7 @@
 💯 前端使用Bootstrap框架。<br>
 🏁 针对一张论文表，进行增删改查的操作。<br>
 😎 借鉴于一位大佬的开源项目，忘记仓库具体地址了，仅供学习使用。
+📌 在线体验：http://www.linzworld.cn/paper
 ## 开发环境
 1. 编程语言：Java8 
 2. 前端语言：JSP + HTML + Bootstrap + JavaScript
