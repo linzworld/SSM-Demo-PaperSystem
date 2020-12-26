@@ -2,7 +2,7 @@
 📝 一个基于 SSM框架 的论文增删改查的 demo 项目，用来提高开发效率。<br>
 💯 前端使用Bootstrap框架。<br>
 🏁 针对一张论文表，进行增删改查的操作。<br>
-😎 借鉴于一位大佬的开源项目，忘记仓库具体地址了，仅供学习使用。
+😎 借鉴于一位大佬的开源项目，忘记仓库具体地址了，仅供学习使用。<br>
 📌 在线体验：http://www.linzworld.cn/paper
 ## 开发环境
 1. 编程语言：Java8 
@@ -15,7 +15,7 @@
 ### 欢迎页面
 ![](http://img.linzworld.cn/img/20201226230416.png)
 ### 论文列表
-![](http://img.linzworld.cn/img/20201226230458.png)
+![](http://img.linzworld.cn/img/20201226233317.png)
 ### 新增论文
 ![](http://img.linzworld.cn/img/20201226230531.png)<br>
 新增成功<br>
