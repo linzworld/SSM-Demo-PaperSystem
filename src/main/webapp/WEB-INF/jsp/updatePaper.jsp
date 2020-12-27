@@ -1,11 +1,12 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%
-    String path = request.getContextPath();
-    String basePath = request.getScheme() + "://"
-            + request.getServerName() + ":" + request.getServerPort()
-            + path + "/";
-%>
+<%--<%--%>
+<%--    String path = request.getContextPath();--%>
+<%--    String basePath = request.getScheme() + "://"--%>
+<%--            + request.getServerName() + ":" + request.getServerPort()--%>
+<%--            + path + "/";--%>
+<%--%>--%>
+<% String appPath = request.getContextPath(); %>
 <html>
 <head>
     <title>修改论文</title>
@@ -48,7 +49,7 @@
     <script type="text/javascript">
         function updatePaper() {
             var form = document.forms[0];
-            form.action = "<%=basePath %>paper/updatePaper";
+            form.action = "<%=appPath %>/paper/updatePaper";
             form.method = "put";
             form.submit();
         }

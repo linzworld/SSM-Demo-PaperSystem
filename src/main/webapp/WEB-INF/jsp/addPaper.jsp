@@ -7,12 +7,15 @@
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%
-    String path = request.getContextPath();
-    String basePath = request.getScheme() + "://"
-            + request.getServerName() + ":" + request.getServerPort()
-            + path + "/";
-%>
+<%--<%--%>
+<%--    String path = request.getContextPath();--%>
+<%--    String basePath = request.getScheme() + "://"--%>
+<%--            + request.getServerName() + ":" + request.getServerPort()--%>
+<%--            + path + "/";--%>
+<%--%>--%>
+<%--使用相对路径比较合理--%>
+<% String appPath = request.getContextPath(); %>
+
 <html>
 <head>
     <title>新增论文</title>
@@ -52,7 +55,7 @@
 
         function addPaper() {
             var form = document.forms[0];
-            form.action = "<%=basePath %>paper/addPaper";
+            form.action = "<%=appPath%>/paper/addPaper";
             form.method = "post";
             form.submit();
         }
